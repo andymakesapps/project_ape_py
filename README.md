@@ -1,5 +1,7 @@
 #PROJECT A.P.E.
+
 ##ALL PHOTOS EVER
+
 _WORK IN PROGRESS_
 
 **Introduction**
@@ -9,12 +11,19 @@ Project A.P.E., or All Photos Ever, aims to provide the basis of an image genera
 **Utilizing the script**
 
 The class uses the following initalizers:
+
 **length** - _The length of the image, or number of colored squares on one side of the square._
+
 **coloring_type** - _Which colors will the image use, can be one of the following: Full (all RGB Colors), BlackAndWhite (only Black and White), Grayscale (gray RGB colors), Grayscale - Red|Green|Blue (gray RGB colors Red|Green|Blue shaded)_
 
+
 The functions it uses are:
+
 **generate_random_image** - _Creates a random image based on the length and coloring_type provided in the initializers._
+
 **generate_all_images** - _Creates all images possible based on the input initializers._
 
+
 **Future Work**
+
 Future plans will involve the option to generate an image from a starting point, e.g. half of the pixels in the image are already colored and it will only generate all possible combinations for the remaining ones. Even further work will be to include some machine learning algorithm that can skim through all the images creates and provide images which actually resemble something.
